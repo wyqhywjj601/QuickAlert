@@ -75,7 +75,8 @@ class QuickAlertButtons extends StatelessWidget {
 
     final okayBtn = MaterialButton(
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(15.0),
+        borderRadius:
+            BorderRadius.circular(options!.buttonBorderRadius ?? 15.0),
       ),
       color: options!.confirmBtnColor ?? Theme.of(context!).primaryColor,
       onPressed: onTap,

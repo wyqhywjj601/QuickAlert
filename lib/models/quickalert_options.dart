@@ -57,6 +57,7 @@ class QuickAlertOptions {
 
   /// Dialog Border Radius
   double? borderRadius;
+  double? buttonBorderRadius;
 
   /// Asset path of your Image file
   String? customAsset;
@@ -119,6 +120,7 @@ class QuickAlertOptions {
 
     /// Dialog Border Radius
     this.borderRadius,
+    this.buttonBorderRadius,
 
     /// Asset path of your Image file
     this.customAsset,
